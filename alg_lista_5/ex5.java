@@ -22,7 +22,7 @@ public class ex5 {
         int n10 = Integer.parseInt(String.valueOf(terceiraParte.charAt(2)));
         int n11 = Integer.parseInt(String.valueOf(terceiraParte.charAt(3)));
         int n12 = Integer.parseInt(String.valueOf(terceiraParte.charAt(4)));
-
+        // A matemática tá com certeza errada kkkkk
         System.out.printf("Digito verificador: %d", ((((n1 + n3 + n5 + n7 + n9 + n11) + (3*(n2 + n4 + n6 + n8 + n10 + n12)-1))%10)-9));
 
         System.out.println(n6);
